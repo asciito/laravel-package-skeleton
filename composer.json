@@ -24,7 +24,8 @@
     "laravel/framework": "^10.23.1",
     "orchestra/testbench": "^8.13",
     "pestphp/pest": "^2.23",
-    "nunomaduro/larastan": "^2.0"
+    "nunomaduro/larastan": "^2.0",
+    "laravel/pint": "^1.13"
   },
   "autoload": {
     "Asciito\\<package>\\": "/src"
