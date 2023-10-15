@@ -41,6 +41,13 @@
       "pestphp/pest-plugin": true
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "\\Asciito\\<package>\\PackageServiceProvider"
+      ]
+    }
+  },
   "minimum-stability": "stable",
   "prefer-stable": true
 }
