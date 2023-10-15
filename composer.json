@@ -1,7 +1,7 @@
 {
-  "name": "asciito/package",
+  "name": "asciito/<package>",
   "type": "library",
-  "description": "description",
+  "description": "<description>",
   "keywords": [
     "laravel",
     "package"
@@ -44,7 +44,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "\\Asciito\\<package>\\PackageServiceProvider"
+        "\\Asciito\\<package>\\<service_provider>"
       ]
     }
   },

@@ -17,7 +17,7 @@
 Install the package by simply running the next command.
 
 ````bash
-composer require {{vendor}}/{{package}}
+composer require asciito/<package>
 ````
 
 ---
