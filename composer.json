@@ -6,13 +6,11 @@
     "laravel",
     "package"
   ],
-  "homepage": "<package_homepage",
   "license": ["MIT"],
   "authors": [
     {
       "name": "<author>",
       "email": "<author_email>",
-      "homepage": "<author_homepage>"
     }
   ],
   "readme": "README.md",
