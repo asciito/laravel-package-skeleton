@@ -14,6 +14,8 @@
 
 ## Installation
 
+Install the package by simply running the next command.
+
 ````bash
 composer require {{vendor}}/{{package}}
 ````
@@ -22,9 +24,22 @@ composer require {{vendor}}/{{package}}
 
 ## Usage
 
+Once the package is installed just run the package installation command to
+publish the package files.
+
+```bash
+php artisan <package>:install
+```
+
 ---
 
 ## Testing
+
+Run the package tests by running the next command.
+
+```bash
+composer test
+```
 
 ---
 
