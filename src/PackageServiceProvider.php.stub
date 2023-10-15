@@ -1,10 +1,8 @@
 <?php
 
-namespace src;
+namespace <namespace>
 
-use Asciito\LaravelPackage\Package\Package;
-
-class PackageServiceProvider extends \Asciito\LaravelPackage\Package\PackageServiceProvider
+class <class_name> extends \Asciito\LaravelPackage\Package\PackageServiceProvider
 {
 
     /**
