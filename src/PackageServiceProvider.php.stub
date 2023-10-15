@@ -2,6 +2,8 @@
 
 namespace <namespace>;
 
+use Asciito\LaravelPackage\Package\Package;
+
 class <class_name> extends \Asciito\LaravelPackage\Package\PackageServiceProvider
 {
 
