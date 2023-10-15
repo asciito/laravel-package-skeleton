@@ -1,6 +1,6 @@
 <?php
 
-namespace <namespace>
+namespace <namespace>;
 
 class <class_name> extends \Asciito\LaravelPackage\Package\PackageServiceProvider
 {
