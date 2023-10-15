@@ -1,4 +1,4 @@
-# {{package}}
+# {{package-title}}
 
 
 ![PHP Version](https://img.shields.io/badge/PHP-^8.1-blue?logo=php)
