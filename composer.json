@@ -1,18 +1,18 @@
 {
-  "name": "asciito/<package>",
+  "name": "<vendor>/<package>",
   "type": "library",
   "description": "<description>",
   "keywords": [
     "laravel",
     "package"
   ],
-  "homepage": "https://aydev.mx",
+  "homepage": "<package_homepage",
   "license": ["MIT"],
   "authors": [
     {
-      "name": "Ayax Córdova",
-      "email": "ayax.cordova@aydev.mx",
-      "homepage": "https://aydev.mx"
+      "name": "<author>",
+      "email": "<author_email>",
+      "homepage": "<author_homepage>"
     }
   ],
   "readme": "README.md",
@@ -28,10 +28,10 @@
     "laravel/pint": "^1.13"
   },
   "autoload": {
-    "Asciito\\<package>\\": "/src"
+    "<namespace>\\": "/src"
   },
   "autoload-dev": {
-    "Asciito\\<package>\\Tests\\": "/tests"
+    "<namespace>\\Tests\\": "/tests"
   },
   "scripts": {
     "tests": "vendor/bin/pest"
@@ -44,7 +44,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "\\Asciito\\<package>\\<service_provider>"
+        "\\<namespace>\\<class_name>"
       ]
     }
   },
