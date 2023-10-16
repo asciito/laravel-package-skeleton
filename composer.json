@@ -1,55 +1,57 @@
 {
-  "name": "<vendor>/<package>",
-  "type": "library",
-  "description": "<description>",
-  "keywords": [
-    "laravel",
-    "package"
-  ],
-  "license": ["MIT"],
-  "authors": [
-    {
-      "name": "<author>",
-      "email": "<author_email>"
-    }
-  ],
-  "readme": "README.md",
-  "require": {
-    "asciito/laravel-package": "^0.4.1"
-  },
-  "require-dev": {
-    "php": "^8.1",
-    "laravel/framework": "^10.23.1",
-    "orchestra/testbench": "^8.13",
-    "pestphp/pest": "^2.23",
-    "nunomaduro/larastan": "^2.0",
-    "laravel/pint": "^1.13"
-  },
-  "autoload": {
-    "psr-4": {
-      "<namespace>\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-    	"<namespace>\\Tests\\": "tests/"
-    }
-  },
-  "scripts": {
-    "tests": "vendor/bin/pest"
-  },
-  "config": {
-    "allow-plugins": {
-      "pestphp/pest-plugin": true
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "\\<namespace>\\<class_name>"
-      ]
-    }
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+	"name": "<vendor>/<package>",
+	"type": "library",
+	"description": "<description>",
+	"keywords": [
+		"laravel",
+		"package"
+	],
+	"license": [
+		"MIT"
+	],
+	"authors": [
+		{
+			"name": "<author>",
+			"email": "<author_email>"
+		}
+	],
+	"readme": "README.md",
+	"require": {
+		"asciito/laravel-package": "^0.4.1"
+	},
+	"require-dev": {
+		"php": "^8.1",
+		"laravel/framework": "^10.23.1",
+		"orchestra/testbench": "^8.13",
+		"pestphp/pest": "^2.23",
+		"nunomaduro/larastan": "^2.0",
+		"laravel/pint": "^1.13"
+	},
+	"autoload": {
+		"psr-4": {
+			"<namespace>\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"<namespace>\\Tests\\": "tests/"
+		}
+	},
+	"scripts": {
+		"tests": "vendor/bin/pest"
+	},
+	"config": {
+		"allow-plugins": {
+			"pestphp/pest-plugin": true
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"\\<namespace>\\<class_name>"
+			]
+		}
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true
 }
