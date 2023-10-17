@@ -1,6 +1,5 @@
 # {{title_package}}
 
-
 ![PHP Version](https://img.shields.io/badge/PHP-^8.1-blue?logo=php)
 ![Laravel Version](https://img.shields.io/badge/Laravel-^10.23.1-red?logo=laravel)
 ![GitHub License](https://img.shields.io/github/license/{{vendor}}/{{package}}?label=License&color=red)
