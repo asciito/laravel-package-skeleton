@@ -29,12 +29,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"{{namespace}}\\": "src/"
+			"{{escape_namespace}}\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"{{namespace}}\\Tests\\": "tests/"
+			"{{escape_namespace}}\\Tests\\": "tests/"
 		}
 	},
 	"scripts": {
@@ -48,7 +48,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"\\{{namespace}}\\{{class_name}}"
+				"\\{{escape_namespace}}\\{{class_name}}"
 			]
 		}
 	},
