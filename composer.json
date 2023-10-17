@@ -1,7 +1,7 @@
 {
-	"name": "<vendor>/<package>",
+	"name": "{{vendor}}/{{package}}",
 	"type": "library",
-	"description": "<description>",
+	"description": "{{description}}",
 	"keywords": [
 		"laravel",
 		"package"
@@ -11,8 +11,8 @@
 	],
 	"authors": [
 		{
-			"name": "<author>",
-			"email": "<author_email>"
+			"name": "{{author}}",
+			"email": "{{author_email}}"
 		}
 	],
 	"readme": "README.md",
@@ -29,12 +29,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"<namespace>\\": "src/"
+			"{{namespace}}\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"<namespace>\\Tests\\": "tests/"
+			"{{namespace}}\\Tests\\": "tests/"
 		}
 	},
 	"scripts": {
@@ -48,7 +48,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"\\<namespace>\\<class_name>"
+				"\\{{namespace}}\\{{class_name}}"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 <?php
 
-use Asciito\<package>\Tests\TestCase;
+use {{namespace}}\Tests\TestCase;
 
 /*
 |--------------------------------------------------------------------------

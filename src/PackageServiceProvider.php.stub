@@ -1,10 +1,10 @@
 <?php
 
-namespace <namespace>;
+namespace {{namespace}};
 
 use Asciito\LaravelPackage\Package\Package;
 
-class <class_name> extends \Asciito\LaravelPackage\Package\PackageServiceProvider
+class {{class_name}} extends \Asciito\LaravelPackage\Package\PackageServiceProvider
 {
 
     /**
@@ -13,7 +13,7 @@ class <class_name> extends \Asciito\LaravelPackage\Package\PackageServiceProvide
     protected function configurePackage(Package $package): void
     {
         $package
-            ->setName('<package>')
+            ->setName('{{package}}')
             ->withConfig();
     }
 }

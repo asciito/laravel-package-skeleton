@@ -3,10 +3,10 @@
 
 ![PHP Version](https://img.shields.io/badge/PHP-^8.1-blue?logo=php)
 ![Laravel Version](https://img.shields.io/badge/Laravel-^10.23.1-red?logo=laravel)
-![GitHub License](https://img.shields.io/github/license/asciito/<package>?label=License&color=red)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/asciito/<package>/run-tests.yml?label=Tests)
-![Packagist Version](https://img.shields.io/packagist/v/asciito/<package>?label=Latest)
-![Packagist Downloads](https://img.shields.io/packagist/dm/asciito/<package>?label=Downloads&color=red)
+![GitHub License](https://img.shields.io/github/license/{{vendor}}/{{package}}?label=License&color=red)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/{{vendor}}/{{package}}/run-tests.yml?label=Tests)
+![Packagist Version](https://img.shields.io/packagist/v/{{vendor}}/{{package}}?label=Latest)
+![Packagist Downloads](https://img.shields.io/packagist/dm/{{vendor}}/{{package}}?label=Downloads&color=red)
 
 {{description}}
 
@@ -17,7 +17,7 @@
 Install the package by simply running the next command.
 
 ````bash
-composer require asciito/<package>
+composer require {{vendor}}/{{package}}
 ````
 
 ---
@@ -28,7 +28,7 @@ Once the package is installed just run the package installation command to
 publish the package files.
 
 ```bash
-php artisan <package>:install
+php artisan {{package}}:install
 ```
 
 ---
